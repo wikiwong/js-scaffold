@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+      <title></title>
+      <style>
+      	body {
+		    background: black;
+		}
+
+		#c {
+		    position: absolute;
+		    top: 0;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    width: 600px;
+		    height: 600px;
+		}
+
+		#v {
+			display: none;
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    margin: -180px 0 0 -240px;
+		}
+		</style>
+    </head>
+    <body>
+        <canvas id="c"></canvas>
+    	<video id="v" width="600" height="600" src="https://dl.dropboxusercontent.com/u/28325952/star-wars.mp4" autoplay>
+		  HTML5 Video not supported
+		</video>
+        <script src="application.js"></script>
+    </body>
+</html>

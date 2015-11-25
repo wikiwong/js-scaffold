@@ -1,0 +1,45 @@
+{
+  "name": "js-starter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Paul Ferruggiaro <paul.ferruggiaro@espn.com>",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.espn.com/pferruggiaro/js-starter.git"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "rm .jshintrc .jshintignore .validate.json"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.16",
+    "babelify": "^6.1.2",
+    "browser-sync": "^2.7.12",
+    "browserify": "^10.2.4",
+    "del": "^1.2.0",
+    "eslint": "^0.23.0",
+    "eslint-plugin-react": "^2.5.2",
+    "git-rev-sync": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "livereactload": "^0.6.0",
+    "precommit-hook": "^2.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.2"
+  }
+}
