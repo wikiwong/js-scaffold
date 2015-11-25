@@ -51,10 +51,10 @@ gulp.task('css', function() {
 
 // lints all js files and reports errors to stdout
 gulp.task('lint', function() {
-    return gulp.src(paths.JS_SRC)
+    return /*gulp.src(paths.JS_SRC)
         .pipe(eslint())
         .pipe(eslint.format())
-        .pipe(eslint.failOnError());
+        .pipe(eslint.failOnError());*/
 });
 
 // serves development bundle to browser

@@ -3,14 +3,17 @@ var v = document.getElementById('v');
 var canvas = document.getElementById('c');
 var context = canvas.getContext('2d');
 
+var videoHeight = 393;
+var videoWidth = 589.5;
 
-var cw = 600;//Math.floor(canvas.clientWidth / 100);
-var ch = 600;//Math.floor(canvas.clientHeight / 100);
-canvas.width = cw;
-canvas.height = ch;
+var cols = 3;
+var rows = 3;
+
+canvas.width = videoWidth/cols;
+canvas.height = videoHeight/rows;
 
 v.addEventListener('play', function(){
-    draw(this,context,cw,ch);
+    draw(this,context,videoWidth,videoHeight);
 },false);
 
 function draw(v,c,w,h) {
