@@ -4,7 +4,7 @@ This project provides a good starting point for a JS project built with gulp.
 
 ###Get started
 1. Install [Node](https://nodejs.org/)
-2. `$ git clone https://code.espn.com/pferruggiaro/js-starter.git`
+2. `$ git clone https://github.com/wikiwong/js-scaffold`
 3. `$ npm install`
 4. `$ gulp`
 
